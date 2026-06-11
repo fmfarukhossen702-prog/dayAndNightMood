@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+@utility btn{
+    @apply px-3 py-2 bg-[#0a9087f7] border border-white rounded-[15px]
+}
+@utility btn-div{
+    @apply p-2 bg-[#4f0333b9] rounded-[20px] m-3
+}
+@utility toggleColor{
+    @apply text-[#25e3f9]
+}

@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head> 
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="src/output.css" />
+  </head>
+  <body class="h-screen">
+    <div class="container relative">
+      <img src="image/day.png" id="img" alt="" class="w-full h-135">
+
+      <div class=" absolute top-1/2 -translate-y-1/2 right-5 text-white">
+        <button id="rightBtn"> 
+          <i class="text-4xl fa-solid fa-angle-right"></i>
+        </button>
+      </div>
+      <div class="absolute top-1/2 -translate-y-1/2 left-5 text-white">
+        <button id="leftBtn">
+          <i class=" text-4xl fa-solid fa-angle-left"></i> 
+        </button>
+      </div>
+      <button id="togg"  onclick="toggler()" class="absolute bottom-7 left-1/2 -translate-x-1/2 text-5xl">
+        <i id="colorr" class="fa-regular fa-circle text-[#fdfdfd]" ></i> 
+      </button>
+    </div>
+
+
+
+
+      <!-- <img id="image" src="image/day.png" alt="" class="w-full h-120">
+    
+    <div class="flex justify-center gap-3 text-white bg-black font-bold text-xl">
+      <div class="btn-div">
+        <button id="night" class="btn">Night mood</button>
+
+      </div>
+      <div class="btn-div">
+        <button id="day" class="btn">Day mood</button>
+
+      </div>
+    </div>
+   -->
+    <script src="script.js"></script>
+  </body>
+</html>
