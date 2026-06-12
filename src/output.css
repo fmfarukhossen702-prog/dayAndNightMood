@@ -230,20 +230,32 @@
   .h-1 {
     height: calc(var(--spacing) * 1);
   }
+  .h-112 {
+    height: calc(var(--spacing) * 112);
+  }
+  .h-112\.5 {
+    height: calc(var(--spacing) * 112.5);
+  }
   .h-120 {
     height: calc(var(--spacing) * 120);
-  }
-  .h-125 {
-    height: calc(var(--spacing) * 125);
-  }
-  .h-130 {
-    height: calc(var(--spacing) * 130);
   }
   .h-135 {
     height: calc(var(--spacing) * 135);
   }
+  .h-\[450px\] {
+    height: 450px;
+  }
+  .h-full {
+    height: 100%;
+  }
   .h-screen {
     height: 100vh;
+  }
+  .max-h-full {
+    max-height: 100%;
+  }
+  .w-120 {
+    width: calc(var(--spacing) * 120);
   }
   .w-full {
     width: 100%;
@@ -323,6 +335,21 @@
   .outline {
     outline-style: var(--tw-outline-style);
     outline-width: 1px;
+  }
+  .lg\:h-1 {
+    @media (width >= 64rem) {
+      height: calc(var(--spacing) * 1);
+    }
+  }
+  .lg\:h-120 {
+    @media (width >= 64rem) {
+      height: calc(var(--spacing) * 120);
+    }
+  }
+  .lg\:h-135 {
+    @media (width >= 64rem) {
+      height: calc(var(--spacing) * 135);
+    }
   }
 }
 @property --tw-translate-x {
