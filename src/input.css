@@ -9,3 +9,9 @@
 @utility toggleColor{
     @apply text-[#25e3f9]
 }
+@utility see{
+    @apply hidden
+}
+@utility see-h{
+    @apply hidden
+}

@@ -1,13 +1,18 @@
 let img = document.getElementById("img");
+let leftBtn = document.getElementById("leftBtn")
 
 let rightBtn = document.getElementById("rightBtn")
 rightBtn.addEventListener("click",  function () {
     img.src = "image/night.png";
-})
+    leftBtn.classList.remove("see")
+    rightBtn.classList.add("see-h")
 
-let leftBtn = document.getElementById("leftBtn")
+})
+ 
 leftBtn.addEventListener("click", function (){
     img.src = "image/day.png"
+    rightBtn.classList.remove("see-h")
+    leftBtn.classList.add("see")
 })
 const toggler = () => {  
     // img.style.color = "red"
