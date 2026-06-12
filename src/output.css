@@ -221,6 +221,9 @@
     background-color: #4f0333b9;
     padding: calc(var(--spacing) * 2);
   }
+  .mx-auto {
+    margin-inline: auto;
+  }
   .flex {
     display: flex;
   }
@@ -303,6 +306,9 @@
   }
   .bg-black {
     background-color: var(--color-black);
+  }
+  .object-cover {
+    object-fit: cover;
   }
   .text-4xl {
     font-size: var(--text-4xl);
